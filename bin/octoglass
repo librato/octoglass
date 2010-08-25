@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const og = require('../lib/octoglass');
+
+process.argv.shift();
+var argv0 = process.argv.shift();
+
+og.start(argv0, process.argv);
